@@ -27,7 +27,7 @@ app.use("/", deleteURL)
 const adminDeletePage = require("./routes/truncate")
 app.use("/", adminDeletePage)
 
-app.get("/", (req, res) => res.redirect(config.defaultRedirectIfNoCodeProvided))
+// app.get("/", (req, res) => res.redirect(config.defaultRedirectIfNoCodeProvided))
 
 app.listen(port, () => {
     console.log(`this is  port ${port}`)

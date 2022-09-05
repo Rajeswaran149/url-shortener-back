@@ -2,7 +2,7 @@
     "shortURLCodeLength": 5,
     "adminPortalUsername": "admin",
     "adminPortalPassword": "admin123",
-    "defaultRedirectIfNoCodeProvided": "https://shortener.up.railway.app",
+    "defaultRedirectIfNoCodeProvided": "https://url-shortener-back-rajes-production.railway.app",
     "alerts": true,
     "alertsAPIURL": ""
 }
